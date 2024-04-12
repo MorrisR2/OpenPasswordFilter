@@ -88,7 +88,7 @@ namespace PasswordCheckerRay
                 string command = istream.ReadLine();
                 if (command != "test")
                 {
-                    WriteToFile("invalid command on socket: " + command);
+                    WriteToFile("invalid command on socket");
                     ostream.WriteLine("ERROR");
                     ostream.Flush();
                 }
